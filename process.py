@@ -35,7 +35,6 @@ for line in tex_file:
     line = line.replace("\\end{document}", "")
     print(line)
     if line.startswith("\\subsection*{"):
-        problem_counter += 1
         pattern = "\\\\subsection\\*{Chapter ([0-9]+)\\s*:\\s*([a-zA-Z0-9_ ]+)}"
         print(line, pattern)
         pattern = re.compile(pattern)
