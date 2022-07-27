@@ -21,6 +21,8 @@ markdown_file = None
 problem_counter = 0
 for line in tex_file:
     line = line.strip()
+    if line.startswith("\\Problem"):
+        problem_counter += 1
     line = line.replace("\\Problem", "**Problem " + str(problem_counter) + ":** ")
     line = line.replace("\\TheSolution", "**Solution:**")
     line = line.replace("\\R", "\\mathbb{R}")
