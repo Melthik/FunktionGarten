@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>A Pelican Blog - content</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog</a></h1>
+                <nav><ul>
+                    <li class="active"><a href="/category/content.html">content</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/complex-numbers.html">Complex Numbers</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2022-07-27T12:00:00+00:00">
+                Published: Wed 27 July 2022
+        </abbr>
+
+<p>In <a href="/category/content.html">content</a>.</p>
+
+</footer><!-- /.post-info --><p><strong>Problem 1:</strong>  Show that 1+4i, 2+7i, 3+10i, are collinear.</p>
+<p><strong>Solution:</strong> Consider the line passing through 1+4i and 2+7i defined by the equation z = a + (3a+1)i, where a $\in\mathbb{R}$. Inputting a=3 shows that 3+10i lies on this line and hence the three points are collinear.</p>
+<p><strong>Problem 1:</strong>  Show that a parabola can be drawn to pass through the representative points of the complex numbers 2+i, 4+4i, 6+9i, 8+16i, 10+25i.</p>
+<p><strong>Solution:</strong> Consider the parabola defined by the three points 2+i, 4+4i, 6+9i which will be of the form z = x + (ax$^2$ + bx +c)i, x, a, b, c $\in\mathbb{R}$. We have the equations
+$$ 4a+2b+c = 1,
+16a + 4b +c = 4,
+36a + 6b + c = 9
+$$
+Solving these equations, we find the parameters defining the parabola passing through the three points are $a = \frac{1}{4}, b = 0, c= 0$. Thus, the parabola of interest is of the form z = x + ($\frac{1}{4}$x$^2$)i. It is then clear that the points 8 + 16i and 10 + 25i fall on this curve as well, corresponding to the points on the curve where x = 8 and 10.</p>
+<p><strong>Problem 1:</strong>  Determine the $n$th roots of unity by aid of the Argand diagram ; and show that the number of primitive roots is the number of integers less than n and prime to it. Prove that if $\theta_1$, $\theta_2$, $\theta_3$, ... be the arguments of the primitive roots, $\sum cos\,p\theta$ = 0 when p is a positive integer less than $\frac{n}{abc..k}$, where a,b,c,...k are the dif and only iferent constituent primes of n ; and that, when p = $\frac{n}{abc...k}$, $\sum cos\,p\theta$ = $\frac{(-1)^\mu n}{abc...k}$, where $\mu$ is the number of constituent primes.</p>
+<p><strong>Solution:</strong>  The roots of unit can be expressed by $z^n = 1$ which can be rewritten as $z = (cos (0+2\pi k)+ i sin(0+2\pi k))^\frac{1}{n}$. This can be further simplified to the expression $z = cos(\frac{2\pi k}{n}) + i sin(\frac{2\pi k}{n})$ for k $\in$ 0 2, ... n-1. This gives us the n desired roots of unity. It is evident that a root is a primitive root if and only if it may generate the root $z = cos(\frac{2\pi }{n}) + i sin(\frac{2\pi }{n})$. Rephrasing this condition, a root is primitive if and only if $ka \equiv 1\,mod\,n$ for some a $\in \mathbb{Z}$. </p>
+<p>By Bézout's identity, k relatively prime to n will satisfy this condition, while those not relatively prime will not. The number of primitive roots of unity is thus equivalent to the number of relatively prime integers less than n. </p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/the-theory-of-convergence.html" rel="bookmark"
+                           title="Permalink to The Theory of Convergence">The Theory of Convergence</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-07-27T12:00:00+00:00">
+                Published: Wed 27 July 2022
+        </abbr>
+
+<p>In <a href="/category/content.html">content</a>.</p>
+
+</footer><!-- /.post-info -->                <p>\setcounter{problem}{0}
+<strong>Problem 2:</strong> 
+\end{document}</p>
+                <a class="readmore" href="/the-theory-of-convergence.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
